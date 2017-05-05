@@ -1,0 +1,27 @@
+{
+  "name": "my-await",
+  "version": "1.0.0",
+  "description": "Example of overriding the await tag",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marko-js-samples/my-await.git"
+  },
+  "keywords": [
+    "marko",
+    "override",
+    "await"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marko-js-samples/my-await/issues"
+  },
+  "homepage": "https://github.com/marko-js-samples/my-await#readme",
+  "dependencies": {
+    "marko": "^4.2.8"
+  }
+}
