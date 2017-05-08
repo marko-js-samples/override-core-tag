@@ -1,6 +1,6 @@
 # Override Marko Core Tag
 
-This is an example of overriding the Marko core `await` tag.
+This is an example of overriding the Marko core `await` tag to enforce a default timeout if the user did not specify a timeout.
 
 ## Installation
 
@@ -16,10 +16,10 @@ $ var personPromise = new Promise((resolve, reject) => {
         resolve({
             name: 'Frank'
         });
-    }, 1000);
+    }, 15000);
 });
 
-<my-await(person from personPromise)>
+<await(person from personPromise)>
     <div>Hello ${person.name}!</div>
-</my-await>
+</await>
 ```

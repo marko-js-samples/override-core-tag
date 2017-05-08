@@ -4,7 +4,7 @@
   "description": "Example of overriding the await tag",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "url": "https://github.com/marko-js-samples/my-await/issues"
   },
   "homepage": "https://github.com/marko-js-samples/my-await#readme",
-  "dependencies": {
+  "devDependencies": {
     "marko": "^4.2.8"
   }
 }
